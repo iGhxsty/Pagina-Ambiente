@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #164416;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #7472ec;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  section p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Ajustes para la imagen */
+.image-container {
+  float: left;
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 200px; /* Ajusta el ancho de la imagen según sea necesario */
+  height: auto;
+  border-radius: 5px; /* Agrega esquinas redondeadas */
+}
+
+/* Ajustes para el texto */
+.text-container {
+  overflow: hidden; /* Evita que el texto se superponga a la imagen */
+}
+
+.text-container h2 {
+  margin-top: 0; /* Elimina el margen superior del título */
+}
+
+header img {
+    width: 100%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    display: block;
+    margin: 0; /* Elimina cualquier margen */
+    max-height: 200px; /* Establece una altura máxima para la imagen */
+  }
+  /* Estilos para la imagen de los ciclos */
+#ciclos .image-container img {
+    max-width: 100%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    border-radius: 5px; /* Añade bordes redondeados si lo deseas */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin-bottom: 10px; /* Añade espacio entre la imagen y el texto */
+  }
+  
+  
+  /* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+/* Estilos para la sección que contiene el enlace */
+#seccion-dos {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para el título de la sección */
+#seccion-dos h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos para el enlace */
+#seccion-dos a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el ratón por encima del enlace */
+#seccion-dos a:hover {
+  background-color: #45a049;
+}
+
+  
